@@ -7,10 +7,10 @@
 
     <!-- versionCode is optional and Android only -->
 
-    <name>Remote</name>
+    <name>Mobile</name>
 
     <description>
-        Your phone is now a remote control!
+        A Cordova test
     </description>
 
     <author href="https://justinschuyler.com" email="justin.r.schuyler@gmail.com">
