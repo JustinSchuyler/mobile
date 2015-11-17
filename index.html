@@ -63,6 +63,7 @@
         <script>
             $(function() {
                 $("#switch").click(function() {
+                    alert("clicked");
                     var cmd = ($(this).html() == "On") ? {"do": "off"} : {"do": "on"};
                     $.post("http://justinschuyler.com:8080", cmd, function() {
                         var $switch = $("#switch");
